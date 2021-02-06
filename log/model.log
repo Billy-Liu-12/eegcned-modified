@@ -1,0 +1,680 @@
+2021-01-12 09:04:40,450 - statisticNew - INFO - 
+Args: 
+2021-01-12 09:04:40,450 - statisticNew - INFO - train: False
+2021-01-12 09:04:40,451 - statisticNew - INFO - tag_schema: iob
+2021-01-12 09:04:40,451 - statisticNew - INFO - batch_size: 30
+2021-01-12 09:04:40,451 - statisticNew - INFO - lr: 0.1
+2021-01-12 09:04:40,452 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-12 09:04:40,452 - statisticNew - INFO - lr_min: 1e-05
+2021-01-12 09:04:40,452 - statisticNew - INFO - label_weights: 5
+2021-01-12 09:04:40,452 - statisticNew - INFO - optimizer: SGD
+2021-01-12 09:04:40,453 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-12 09:04:40,453 - statisticNew - INFO - epoch: 100
+2021-01-12 09:04:40,453 - statisticNew - INFO - cuda: 0
+2021-01-12 09:04:40,453 - statisticNew - INFO - num_steps: 50
+2021-01-12 09:04:40,453 - statisticNew - INFO - word_embed_dim: 100
+2021-01-12 09:04:40,454 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-12 09:04:40,454 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-12 09:04:40,454 - statisticNew - INFO - position_embed_dim: 0
+2021-01-12 09:04:40,454 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-12 09:04:40,454 - statisticNew - INFO - rnn_hidden: 100
+2021-01-12 09:04:40,455 - statisticNew - INFO - rnn_layers: 1
+2021-01-12 09:04:40,455 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-12 09:04:40,455 - statisticNew - INFO - pooling: avg
+2021-01-12 09:04:40,455 - statisticNew - INFO - gcn_dim: 150
+2021-01-12 09:04:40,456 - statisticNew - INFO - num_layers: 2
+2021-01-12 09:04:40,456 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-12 09:04:40,456 - statisticNew - INFO - map_file: maps.pkl
+2021-01-12 09:04:40,456 - statisticNew - INFO - result_path: result
+2021-01-12 09:04:40,456 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-12 09:04:40,457 - statisticNew - INFO - train_file: H:\eegcned\data_doc\example.train
+2021-01-12 09:04:40,457 - statisticNew - INFO - dev_file: H:\eegcned\data_doc\example.dev
+2021-01-12 09:04:40,457 - statisticNew - INFO - test_file: H:\eegcned\data_doc\example.test
+2021-01-12 09:04:40,457 - statisticNew - INFO - log_name: model
+2021-01-12 09:04:40,457 - statisticNew - INFO - seed: 1023
+2021-01-12 09:04:40,457 - statisticNew - INFO - 
+
+2021-01-12 09:04:45,017 - statisticNew - INFO - 
+ resinfo accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00  F1: 0.0 
+2021-01-12 19:29:58,034 - statisticNew - INFO - 
+Args: 
+2021-01-12 19:29:58,064 - statisticNew - INFO - train: False
+2021-01-12 19:29:58,064 - statisticNew - INFO - tag_schema: iob
+2021-01-12 19:29:58,065 - statisticNew - INFO - batch_size: 30
+2021-01-12 19:29:58,065 - statisticNew - INFO - lr: 0.1
+2021-01-12 19:29:58,065 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-12 19:29:58,065 - statisticNew - INFO - lr_min: 1e-05
+2021-01-12 19:29:58,065 - statisticNew - INFO - label_weights: 5
+2021-01-12 19:29:58,065 - statisticNew - INFO - optimizer: SGD
+2021-01-12 19:29:58,065 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-12 19:29:58,066 - statisticNew - INFO - epoch: 100
+2021-01-12 19:29:58,066 - statisticNew - INFO - cuda: 0
+2021-01-12 19:29:58,066 - statisticNew - INFO - num_steps: 50
+2021-01-12 19:29:58,066 - statisticNew - INFO - word_embed_dim: 100
+2021-01-12 19:29:58,066 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-12 19:29:58,066 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-12 19:29:58,066 - statisticNew - INFO - position_embed_dim: 0
+2021-01-12 19:29:58,066 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-12 19:29:58,066 - statisticNew - INFO - rnn_hidden: 100
+2021-01-12 19:29:58,066 - statisticNew - INFO - rnn_layers: 1
+2021-01-12 19:29:58,066 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-12 19:29:58,067 - statisticNew - INFO - pooling: avg
+2021-01-12 19:29:58,067 - statisticNew - INFO - gcn_dim: 150
+2021-01-12 19:29:58,067 - statisticNew - INFO - num_layers: 2
+2021-01-12 19:29:58,067 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-12 19:29:58,067 - statisticNew - INFO - map_file: maps.pkl
+2021-01-12 19:29:58,067 - statisticNew - INFO - result_path: result
+2021-01-12 19:29:58,067 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-12 19:29:58,067 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/example.train
+2021-01-12 19:29:58,067 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/example.dev
+2021-01-12 19:29:58,067 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/example.test
+2021-01-12 19:29:58,067 - statisticNew - INFO - log_name: model
+2021-01-12 19:29:58,068 - statisticNew - INFO - seed: 1023
+2021-01-12 19:29:58,068 - statisticNew - INFO - 
+
+2021-01-12 19:30:04,022 - statisticNew - INFO - 
+ resinfo accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00  F1: 0.0 
+2021-01-17 13:14:51,488 - statisticNew - INFO - 
+Args: 
+2021-01-17 13:14:51,493 - statisticNew - INFO - train: False
+2021-01-17 13:14:51,493 - statisticNew - INFO - tag_schema: iob
+2021-01-17 13:14:51,494 - statisticNew - INFO - batch_size: 30
+2021-01-17 13:14:51,494 - statisticNew - INFO - lr: 0.1
+2021-01-17 13:14:51,494 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-17 13:14:51,495 - statisticNew - INFO - lr_min: 1e-05
+2021-01-17 13:14:51,495 - statisticNew - INFO - label_weights: 5
+2021-01-17 13:14:51,495 - statisticNew - INFO - optimizer: SGD
+2021-01-17 13:14:51,495 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-17 13:14:51,496 - statisticNew - INFO - epoch: 100
+2021-01-17 13:14:51,496 - statisticNew - INFO - cuda: 0
+2021-01-17 13:14:51,496 - statisticNew - INFO - num_steps: 50
+2021-01-17 13:14:51,496 - statisticNew - INFO - word_embed_dim: 100
+2021-01-17 13:14:51,497 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-17 13:14:51,497 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-17 13:14:51,497 - statisticNew - INFO - position_embed_dim: 0
+2021-01-17 13:14:51,497 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-17 13:14:51,497 - statisticNew - INFO - rnn_hidden: 100
+2021-01-17 13:14:51,497 - statisticNew - INFO - rnn_layers: 1
+2021-01-17 13:14:51,498 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-17 13:14:51,498 - statisticNew - INFO - pooling: avg
+2021-01-17 13:14:51,498 - statisticNew - INFO - gcn_dim: 150
+2021-01-17 13:14:51,498 - statisticNew - INFO - num_layers: 2
+2021-01-17 13:14:51,498 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-17 13:14:51,498 - statisticNew - INFO - map_file: maps.pkl
+2021-01-17 13:14:51,499 - statisticNew - INFO - result_path: result
+2021-01-17 13:14:51,499 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-17 13:14:51,499 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-17 13:14:51,499 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-17 13:14:51,499 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-17 13:14:51,500 - statisticNew - INFO - log_name: model
+2021-01-17 13:14:51,500 - statisticNew - INFO - seed: 1023
+2021-01-17 13:14:51,500 - statisticNew - INFO - 
+
+2021-01-17 13:15:06,712 - statisticNew - INFO - 
+ resinfo accuracy:  96.84%; precision:  46.84%; recall:  76.60%; FB1:  58.13  F1: 58.13 
+2021-01-17 14:09:13,930 - statisticNew - INFO - 
+Args: 
+2021-01-17 14:09:13,930 - statisticNew - INFO - train: False
+2021-01-17 14:09:13,931 - statisticNew - INFO - tag_schema: iob
+2021-01-17 14:09:13,931 - statisticNew - INFO - batch_size: 30
+2021-01-17 14:09:13,931 - statisticNew - INFO - lr: 0.1
+2021-01-17 14:09:13,931 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-17 14:09:13,931 - statisticNew - INFO - lr_min: 1e-05
+2021-01-17 14:09:13,931 - statisticNew - INFO - label_weights: 5
+2021-01-17 14:09:13,932 - statisticNew - INFO - optimizer: SGD
+2021-01-17 14:09:13,932 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-17 14:09:13,932 - statisticNew - INFO - epoch: 150
+2021-01-17 14:09:13,932 - statisticNew - INFO - cuda: 0
+2021-01-17 14:09:13,932 - statisticNew - INFO - num_steps: 50
+2021-01-17 14:09:13,933 - statisticNew - INFO - word_embed_dim: 100
+2021-01-17 14:09:13,933 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-17 14:09:13,933 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-17 14:09:13,933 - statisticNew - INFO - position_embed_dim: 0
+2021-01-17 14:09:13,933 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-17 14:09:13,933 - statisticNew - INFO - rnn_hidden: 100
+2021-01-17 14:09:13,934 - statisticNew - INFO - rnn_layers: 1
+2021-01-17 14:09:13,934 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-17 14:09:13,934 - statisticNew - INFO - pooling: avg
+2021-01-17 14:09:13,934 - statisticNew - INFO - gcn_dim: 150
+2021-01-17 14:09:13,934 - statisticNew - INFO - num_layers: 2
+2021-01-17 14:09:13,934 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-17 14:09:13,935 - statisticNew - INFO - map_file: maps.pkl
+2021-01-17 14:09:13,935 - statisticNew - INFO - result_path: result
+2021-01-17 14:09:13,935 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-17 14:09:13,935 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-17 14:09:13,935 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-17 14:09:13,935 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-17 14:09:13,936 - statisticNew - INFO - log_name: model
+2021-01-17 14:09:13,936 - statisticNew - INFO - seed: 1023
+2021-01-17 14:09:13,936 - statisticNew - INFO - 
+
+2021-01-17 14:09:30,527 - statisticNew - INFO - 
+ resinfo accuracy:  96.84%; precision:  46.84%; recall:  76.60%; FB1:  58.13  F1: 58.13 
+2021-01-17 18:45:28,841 - statisticNew - INFO - 
+Args: 
+2021-01-17 18:45:28,855 - statisticNew - INFO - train: False
+2021-01-17 18:45:28,855 - statisticNew - INFO - tag_schema: iob
+2021-01-17 18:45:28,856 - statisticNew - INFO - batch_size: 32
+2021-01-17 18:45:28,856 - statisticNew - INFO - lr: 0.1
+2021-01-17 18:45:28,857 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-17 18:45:28,857 - statisticNew - INFO - lr_min: 1e-05
+2021-01-17 18:45:28,857 - statisticNew - INFO - label_weights: 5
+2021-01-17 18:45:28,858 - statisticNew - INFO - optimizer: SGD
+2021-01-17 18:45:28,858 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-17 18:45:28,859 - statisticNew - INFO - epoch: 150
+2021-01-17 18:45:28,859 - statisticNew - INFO - cuda: 0
+2021-01-17 18:45:28,859 - statisticNew - INFO - num_steps: 50
+2021-01-17 18:45:28,860 - statisticNew - INFO - word_embed_dim: 100
+2021-01-17 18:45:28,860 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-17 18:45:28,860 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-17 18:45:28,861 - statisticNew - INFO - position_embed_dim: 0
+2021-01-17 18:45:28,861 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-17 18:45:28,861 - statisticNew - INFO - rnn_hidden: 100
+2021-01-17 18:45:28,861 - statisticNew - INFO - rnn_layers: 1
+2021-01-17 18:45:28,861 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-17 18:45:28,861 - statisticNew - INFO - pooling: avg
+2021-01-17 18:45:28,861 - statisticNew - INFO - gcn_dim: 150
+2021-01-17 18:45:28,862 - statisticNew - INFO - num_layers: 2
+2021-01-17 18:45:28,862 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-17 18:45:28,862 - statisticNew - INFO - map_file: maps.pkl
+2021-01-17 18:45:28,862 - statisticNew - INFO - result_path: result
+2021-01-17 18:45:28,862 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-17 18:45:28,862 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-17 18:45:28,863 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-17 18:45:28,863 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-17 18:45:28,863 - statisticNew - INFO - log_name: model
+2021-01-17 18:45:28,863 - statisticNew - INFO - seed: 1023
+2021-01-17 18:45:28,863 - statisticNew - INFO - 
+
+2021-01-17 18:45:41,036 - statisticNew - INFO - 
+ resinfo accuracy:  96.84%; precision:  46.84%; recall:  76.60%; FB1:  58.13  F1: 58.13 
+2021-01-18 09:19:25,765 - statisticNew - INFO - 
+Args: 
+2021-01-18 09:19:25,771 - statisticNew - INFO - train: False
+2021-01-18 09:19:25,772 - statisticNew - INFO - tag_schema: iob
+2021-01-18 09:19:25,772 - statisticNew - INFO - batch_size: 30
+2021-01-18 09:19:25,772 - statisticNew - INFO - lr: 0.1
+2021-01-18 09:19:25,772 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-18 09:19:25,772 - statisticNew - INFO - lr_min: 1e-05
+2021-01-18 09:19:25,772 - statisticNew - INFO - label_weights: 5
+2021-01-18 09:19:25,772 - statisticNew - INFO - optimizer: SGD
+2021-01-18 09:19:25,773 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-18 09:19:25,773 - statisticNew - INFO - epoch: 150
+2021-01-18 09:19:25,773 - statisticNew - INFO - cuda: 0
+2021-01-18 09:19:25,773 - statisticNew - INFO - num_steps: 50
+2021-01-18 09:19:25,773 - statisticNew - INFO - word_embed_dim: 100
+2021-01-18 09:19:25,773 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-18 09:19:25,773 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-18 09:19:25,773 - statisticNew - INFO - position_embed_dim: 0
+2021-01-18 09:19:25,774 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-18 09:19:25,774 - statisticNew - INFO - rnn_hidden: 100
+2021-01-18 09:19:25,774 - statisticNew - INFO - rnn_layers: 1
+2021-01-18 09:19:25,774 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-18 09:19:25,774 - statisticNew - INFO - pooling: avg
+2021-01-18 09:19:25,774 - statisticNew - INFO - gcn_dim: 150
+2021-01-18 09:19:25,774 - statisticNew - INFO - num_layers: 2
+2021-01-18 09:19:25,774 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-18 09:19:25,774 - statisticNew - INFO - map_file: maps.pkl
+2021-01-18 09:19:25,774 - statisticNew - INFO - result_path: result
+2021-01-18 09:19:25,775 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-18 09:19:25,775 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-18 09:19:25,775 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-18 09:19:25,775 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-18 09:19:25,775 - statisticNew - INFO - log_name: model
+2021-01-18 09:19:25,775 - statisticNew - INFO - seed: 1023
+2021-01-18 09:19:25,775 - statisticNew - INFO - 
+
+2021-01-18 09:19:44,093 - statisticNew - INFO - 
+ resinfo accuracy:  96.84%; precision:  46.84%; recall:  76.60%; FB1:  58.13  F1: 58.13 
+2021-01-19 22:42:51,678 - statisticNew - INFO - 
+Args: 
+2021-01-19 22:42:51,691 - statisticNew - INFO - train: False
+2021-01-19 22:42:51,691 - statisticNew - INFO - tag_schema: iob
+2021-01-19 22:42:51,692 - statisticNew - INFO - batch_size: 30
+2021-01-19 22:42:51,692 - statisticNew - INFO - lr: 0.1
+2021-01-19 22:42:51,692 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-19 22:42:51,693 - statisticNew - INFO - lr_min: 1e-05
+2021-01-19 22:42:51,693 - statisticNew - INFO - label_weights: 5
+2021-01-19 22:42:51,693 - statisticNew - INFO - optimizer: SGD
+2021-01-19 22:42:51,694 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-19 22:42:51,694 - statisticNew - INFO - epoch: 150
+2021-01-19 22:42:51,694 - statisticNew - INFO - cuda: 0
+2021-01-19 22:42:51,694 - statisticNew - INFO - num_steps: 50
+2021-01-19 22:42:51,695 - statisticNew - INFO - word_embed_dim: 100
+2021-01-19 22:42:51,695 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-19 22:42:51,695 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-19 22:42:51,695 - statisticNew - INFO - position_embed_dim: 0
+2021-01-19 22:42:51,696 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-19 22:42:51,696 - statisticNew - INFO - rnn_hidden: 100
+2021-01-19 22:42:51,696 - statisticNew - INFO - rnn_layers: 1
+2021-01-19 22:42:51,696 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-19 22:42:51,697 - statisticNew - INFO - pooling: avg
+2021-01-19 22:42:51,697 - statisticNew - INFO - gcn_dim: 150
+2021-01-19 22:42:51,697 - statisticNew - INFO - num_layers: 2
+2021-01-19 22:42:51,697 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-19 22:42:51,697 - statisticNew - INFO - map_file: maps.pkl
+2021-01-19 22:42:51,698 - statisticNew - INFO - result_path: result
+2021-01-19 22:42:51,698 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-19 22:42:51,698 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-19 22:42:51,698 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-19 22:42:51,699 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-19 22:42:51,699 - statisticNew - INFO - log_name: model
+2021-01-19 22:42:51,699 - statisticNew - INFO - seed: 1023
+2021-01-19 22:42:51,699 - statisticNew - INFO - 
+
+2021-01-19 22:43:05,169 - statisticNew - INFO - 
+ resinfo accuracy:  97.22%; precision:  60.27%; recall:  75.70%; FB1:  67.11  F1: 67.11 
+2021-01-20 13:07:03,563 - statisticNew - INFO - 
+Args: 
+2021-01-20 13:07:03,572 - statisticNew - INFO - train: False
+2021-01-20 13:07:03,572 - statisticNew - INFO - tag_schema: iob
+2021-01-20 13:07:03,572 - statisticNew - INFO - batch_size: 30
+2021-01-20 13:07:03,573 - statisticNew - INFO - lr: 0.1
+2021-01-20 13:07:03,573 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-20 13:07:03,573 - statisticNew - INFO - lr_min: 1e-05
+2021-01-20 13:07:03,573 - statisticNew - INFO - label_weights: 5
+2021-01-20 13:07:03,573 - statisticNew - INFO - optimizer: SGD
+2021-01-20 13:07:03,573 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-20 13:07:03,574 - statisticNew - INFO - epoch: 100
+2021-01-20 13:07:03,574 - statisticNew - INFO - cuda: 0
+2021-01-20 13:07:03,574 - statisticNew - INFO - num_steps: 50
+2021-01-20 13:07:03,574 - statisticNew - INFO - word_embed_dim: 100
+2021-01-20 13:07:03,574 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-20 13:07:03,574 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-20 13:07:03,575 - statisticNew - INFO - position_embed_dim: 0
+2021-01-20 13:07:03,575 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-20 13:07:03,575 - statisticNew - INFO - rnn_hidden: 100
+2021-01-20 13:07:03,575 - statisticNew - INFO - rnn_layers: 1
+2021-01-20 13:07:03,575 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-20 13:07:03,575 - statisticNew - INFO - pooling: avg
+2021-01-20 13:07:03,575 - statisticNew - INFO - gcn_dim: 150
+2021-01-20 13:07:03,575 - statisticNew - INFO - num_layers: 2
+2021-01-20 13:07:03,575 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-20 13:07:03,575 - statisticNew - INFO - map_file: maps.pkl
+2021-01-20 13:07:03,576 - statisticNew - INFO - result_path: result
+2021-01-20 13:07:03,576 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-20 13:07:03,576 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-20 13:07:03,576 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-20 13:07:03,576 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-20 13:07:03,576 - statisticNew - INFO - log_name: model
+2021-01-20 13:07:03,576 - statisticNew - INFO - seed: 1023
+2021-01-20 13:07:03,576 - statisticNew - INFO - 
+
+2021-01-20 13:07:28,504 - statisticNew - INFO - 
+ resinfo accuracy:  97.22%; precision:  60.27%; recall:  75.70%; FB1:  67.11  F1: 67.11 
+2021-01-20 14:03:12,896 - statisticNew - INFO - 
+Args: 
+2021-01-20 14:03:12,896 - statisticNew - INFO - train: False
+2021-01-20 14:03:12,896 - statisticNew - INFO - tag_schema: iob
+2021-01-20 14:03:12,896 - statisticNew - INFO - batch_size: 30
+2021-01-20 14:03:12,896 - statisticNew - INFO - lr: 0.1
+2021-01-20 14:03:12,896 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-20 14:03:12,897 - statisticNew - INFO - lr_min: 1e-05
+2021-01-20 14:03:12,897 - statisticNew - INFO - label_weights: 5
+2021-01-20 14:03:12,897 - statisticNew - INFO - optimizer: SGD
+2021-01-20 14:03:12,897 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-20 14:03:12,897 - statisticNew - INFO - epoch: 100
+2021-01-20 14:03:12,897 - statisticNew - INFO - cuda: 0
+2021-01-20 14:03:12,898 - statisticNew - INFO - num_steps: 50
+2021-01-20 14:03:12,898 - statisticNew - INFO - word_embed_dim: 100
+2021-01-20 14:03:12,898 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-20 14:03:12,898 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-20 14:03:12,898 - statisticNew - INFO - position_embed_dim: 0
+2021-01-20 14:03:12,899 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-20 14:03:12,899 - statisticNew - INFO - rnn_hidden: 100
+2021-01-20 14:03:12,899 - statisticNew - INFO - rnn_layers: 1
+2021-01-20 14:03:12,899 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-20 14:03:12,900 - statisticNew - INFO - pooling: avg
+2021-01-20 14:03:12,900 - statisticNew - INFO - gcn_dim: 150
+2021-01-20 14:03:12,900 - statisticNew - INFO - num_layers: 2
+2021-01-20 14:03:12,900 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-20 14:03:12,901 - statisticNew - INFO - map_file: maps.pkl
+2021-01-20 14:03:12,901 - statisticNew - INFO - result_path: result
+2021-01-20 14:03:12,901 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-20 14:03:12,901 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-20 14:03:12,901 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-20 14:03:12,901 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-20 14:03:12,901 - statisticNew - INFO - log_name: model
+2021-01-20 14:03:12,901 - statisticNew - INFO - seed: 1023
+2021-01-20 14:03:12,902 - statisticNew - INFO - 
+
+2021-01-20 14:03:24,881 - statisticNew - INFO - 
+ resinfo accuracy:  97.22%; precision:  60.27%; recall:  75.70%; FB1:  67.11  F1: 67.11 
+2021-01-20 14:37:05,420 - statisticNew - INFO - 
+Args: 
+2021-01-20 14:37:05,421 - statisticNew - INFO - train: False
+2021-01-20 14:37:05,421 - statisticNew - INFO - tag_schema: iob
+2021-01-20 14:37:05,421 - statisticNew - INFO - batch_size: 30
+2021-01-20 14:37:05,421 - statisticNew - INFO - lr: 0.1
+2021-01-20 14:37:05,421 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-20 14:37:05,422 - statisticNew - INFO - lr_min: 1e-05
+2021-01-20 14:37:05,422 - statisticNew - INFO - label_weights: 5
+2021-01-20 14:37:05,422 - statisticNew - INFO - optimizer: SGD
+2021-01-20 14:37:05,422 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-20 14:37:05,422 - statisticNew - INFO - epoch: 100
+2021-01-20 14:37:05,422 - statisticNew - INFO - cuda: 0
+2021-01-20 14:37:05,422 - statisticNew - INFO - num_steps: 50
+2021-01-20 14:37:05,423 - statisticNew - INFO - word_embed_dim: 100
+2021-01-20 14:37:05,423 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-20 14:37:05,423 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-20 14:37:05,423 - statisticNew - INFO - position_embed_dim: 0
+2021-01-20 14:37:05,423 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-20 14:37:05,423 - statisticNew - INFO - rnn_hidden: 100
+2021-01-20 14:37:05,424 - statisticNew - INFO - rnn_layers: 1
+2021-01-20 14:37:05,424 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-20 14:37:05,424 - statisticNew - INFO - pooling: avg
+2021-01-20 14:37:05,424 - statisticNew - INFO - gcn_dim: 150
+2021-01-20 14:37:05,424 - statisticNew - INFO - num_layers: 2
+2021-01-20 14:37:05,425 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-20 14:37:05,425 - statisticNew - INFO - map_file: maps.pkl
+2021-01-20 14:37:05,425 - statisticNew - INFO - result_path: result
+2021-01-20 14:37:05,425 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-20 14:37:05,425 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-20 14:37:05,425 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-20 14:37:05,425 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-20 14:37:05,425 - statisticNew - INFO - log_name: model
+2021-01-20 14:37:05,426 - statisticNew - INFO - seed: 1023
+2021-01-20 14:37:05,426 - statisticNew - INFO - 
+
+2021-01-20 14:37:18,066 - statisticNew - INFO - 
+ resinfo accuracy:  97.22%; precision:  60.27%; recall:  75.70%; FB1:  67.11  F1: 67.11 
+2021-01-21 17:40:04,537 - statisticNew - INFO - 
+Args: 
+2021-01-21 17:40:04,554 - statisticNew - INFO - train: False
+2021-01-21 17:40:04,554 - statisticNew - INFO - tag_schema: iob
+2021-01-21 17:40:04,554 - statisticNew - INFO - batch_size: 30
+2021-01-21 17:40:04,555 - statisticNew - INFO - lr: 0.1
+2021-01-21 17:40:04,555 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-21 17:40:04,555 - statisticNew - INFO - lr_min: 1e-05
+2021-01-21 17:40:04,556 - statisticNew - INFO - label_weights: 5
+2021-01-21 17:40:04,556 - statisticNew - INFO - optimizer: SGD
+2021-01-21 17:40:04,556 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-21 17:40:04,557 - statisticNew - INFO - epoch: 100
+2021-01-21 17:40:04,557 - statisticNew - INFO - cuda: 0
+2021-01-21 17:40:04,557 - statisticNew - INFO - num_steps: 50
+2021-01-21 17:40:04,558 - statisticNew - INFO - word_embed_dim: 100
+2021-01-21 17:40:04,558 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-21 17:40:04,558 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-21 17:40:04,558 - statisticNew - INFO - position_embed_dim: 0
+2021-01-21 17:40:04,558 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-21 17:40:04,559 - statisticNew - INFO - rnn_hidden: 100
+2021-01-21 17:40:04,559 - statisticNew - INFO - rnn_layers: 1
+2021-01-21 17:40:04,559 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-21 17:40:04,559 - statisticNew - INFO - pooling: avg
+2021-01-21 17:40:04,559 - statisticNew - INFO - gcn_dim: 150
+2021-01-21 17:40:04,560 - statisticNew - INFO - num_layers: 2
+2021-01-21 17:40:04,560 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-21 17:40:04,560 - statisticNew - INFO - map_file: maps.pkl
+2021-01-21 17:40:04,560 - statisticNew - INFO - result_path: result
+2021-01-21 17:40:04,560 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-21 17:40:04,561 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-21 17:40:04,561 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-21 17:40:04,561 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-21 17:40:04,561 - statisticNew - INFO - log_name: model
+2021-01-21 17:40:04,561 - statisticNew - INFO - seed: 1023
+2021-01-21 17:40:04,561 - statisticNew - INFO - 
+
+2021-01-21 17:40:17,378 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
+2021-01-21 18:00:58,416 - statisticNew - INFO - 
+Args: 
+2021-01-21 18:00:58,433 - statisticNew - INFO - train: False
+2021-01-21 18:00:58,433 - statisticNew - INFO - tag_schema: iob
+2021-01-21 18:00:58,434 - statisticNew - INFO - batch_size: 30
+2021-01-21 18:00:58,434 - statisticNew - INFO - lr: 0.1
+2021-01-21 18:00:58,434 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-21 18:00:58,434 - statisticNew - INFO - lr_min: 1e-05
+2021-01-21 18:00:58,434 - statisticNew - INFO - label_weights: 5
+2021-01-21 18:00:58,434 - statisticNew - INFO - optimizer: SGD
+2021-01-21 18:00:58,434 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-21 18:00:58,434 - statisticNew - INFO - epoch: 150
+2021-01-21 18:00:58,434 - statisticNew - INFO - cuda: 0
+2021-01-21 18:00:58,434 - statisticNew - INFO - num_steps: 50
+2021-01-21 18:00:58,435 - statisticNew - INFO - word_embed_dim: 100
+2021-01-21 18:00:58,435 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-21 18:00:58,435 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-21 18:00:58,435 - statisticNew - INFO - position_embed_dim: 0
+2021-01-21 18:00:58,435 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-21 18:00:58,435 - statisticNew - INFO - rnn_hidden: 100
+2021-01-21 18:00:58,435 - statisticNew - INFO - rnn_layers: 1
+2021-01-21 18:00:58,435 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-21 18:00:58,435 - statisticNew - INFO - pooling: avg
+2021-01-21 18:00:58,436 - statisticNew - INFO - gcn_dim: 150
+2021-01-21 18:00:58,436 - statisticNew - INFO - num_layers: 2
+2021-01-21 18:00:58,436 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-21 18:00:58,436 - statisticNew - INFO - map_file: maps.pkl
+2021-01-21 18:00:58,436 - statisticNew - INFO - result_path: result
+2021-01-21 18:00:58,436 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-21 18:00:58,436 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-21 18:00:58,436 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-21 18:00:58,436 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-21 18:00:58,437 - statisticNew - INFO - log_name: model
+2021-01-21 18:00:58,437 - statisticNew - INFO - seed: 1023
+2021-01-21 18:00:58,437 - statisticNew - INFO - 
+
+2021-01-21 18:01:22,018 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
+2021-01-21 18:48:02,630 - statisticNew - INFO - 
+Args: 
+2021-01-21 18:48:02,631 - statisticNew - INFO - train: False
+2021-01-21 18:48:02,631 - statisticNew - INFO - tag_schema: iob
+2021-01-21 18:48:02,631 - statisticNew - INFO - batch_size: 30
+2021-01-21 18:48:02,631 - statisticNew - INFO - lr: 0.1
+2021-01-21 18:48:02,631 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-21 18:48:02,631 - statisticNew - INFO - lr_min: 1e-05
+2021-01-21 18:48:02,632 - statisticNew - INFO - label_weights: 5
+2021-01-21 18:48:02,632 - statisticNew - INFO - optimizer: SGD
+2021-01-21 18:48:02,632 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-21 18:48:02,632 - statisticNew - INFO - epoch: 150
+2021-01-21 18:48:02,632 - statisticNew - INFO - cuda: 0
+2021-01-21 18:48:02,632 - statisticNew - INFO - num_steps: 50
+2021-01-21 18:48:02,633 - statisticNew - INFO - word_embed_dim: 100
+2021-01-21 18:48:02,633 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-21 18:48:02,633 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-21 18:48:02,633 - statisticNew - INFO - position_embed_dim: 0
+2021-01-21 18:48:02,634 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-21 18:48:02,634 - statisticNew - INFO - rnn_hidden: 100
+2021-01-21 18:48:02,634 - statisticNew - INFO - rnn_layers: 1
+2021-01-21 18:48:02,635 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-21 18:48:02,635 - statisticNew - INFO - pooling: avg
+2021-01-21 18:48:02,635 - statisticNew - INFO - gcn_dim: 150
+2021-01-21 18:48:02,635 - statisticNew - INFO - num_layers: 2
+2021-01-21 18:48:02,635 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-21 18:48:02,636 - statisticNew - INFO - map_file: maps.pkl
+2021-01-21 18:48:02,636 - statisticNew - INFO - result_path: result
+2021-01-21 18:48:02,636 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-21 18:48:02,636 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-21 18:48:02,636 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-21 18:48:02,636 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-21 18:48:02,636 - statisticNew - INFO - log_name: model
+2021-01-21 18:48:02,636 - statisticNew - INFO - seed: 1023
+2021-01-21 18:48:02,637 - statisticNew - INFO - 
+
+2021-01-21 18:48:14,574 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
+2021-01-26 18:57:03,007 - statisticNew - INFO - 
+Args: 
+2021-01-26 18:57:03,027 - statisticNew - INFO - train: False
+2021-01-26 18:57:03,028 - statisticNew - INFO - tag_schema: iob
+2021-01-26 18:57:03,028 - statisticNew - INFO - batch_size: 30
+2021-01-26 18:57:03,028 - statisticNew - INFO - lr: 0.1
+2021-01-26 18:57:03,029 - statisticNew - INFO - lr_sharp_decay: 0
+2021-01-26 18:57:03,029 - statisticNew - INFO - lr_min: 1e-05
+2021-01-26 18:57:03,029 - statisticNew - INFO - label_weights: 5
+2021-01-26 18:57:03,029 - statisticNew - INFO - optimizer: SGD
+2021-01-26 18:57:03,030 - statisticNew - INFO - weight_decay: 1e-05
+2021-01-26 18:57:03,030 - statisticNew - INFO - epoch: 150
+2021-01-26 18:57:03,030 - statisticNew - INFO - cuda: 0
+2021-01-26 18:57:03,031 - statisticNew - INFO - num_steps: 50
+2021-01-26 18:57:03,031 - statisticNew - INFO - word_embed_dim: 100
+2021-01-26 18:57:03,031 - statisticNew - INFO - bio_embed_dim: 25
+2021-01-26 18:57:03,031 - statisticNew - INFO - pos_embed_dim: 0
+2021-01-26 18:57:03,032 - statisticNew - INFO - position_embed_dim: 0
+2021-01-26 18:57:03,032 - statisticNew - INFO - dep_embed_dim: 50
+2021-01-26 18:57:03,032 - statisticNew - INFO - rnn_hidden: 100
+2021-01-26 18:57:03,033 - statisticNew - INFO - rnn_layers: 1
+2021-01-26 18:57:03,033 - statisticNew - INFO - rnn_dropout: 0.6
+2021-01-26 18:57:03,033 - statisticNew - INFO - pooling: avg
+2021-01-26 18:57:03,033 - statisticNew - INFO - gcn_dim: 150
+2021-01-26 18:57:03,033 - statisticNew - INFO - num_layers: 2
+2021-01-26 18:57:03,033 - statisticNew - INFO - gcn_dropout: 0.6
+2021-01-26 18:57:03,033 - statisticNew - INFO - map_file: maps.pkl
+2021-01-26 18:57:03,034 - statisticNew - INFO - result_path: result
+2021-01-26 18:57:03,034 - statisticNew - INFO - emb_file: 100.utf8
+2021-01-26 18:57:03,034 - statisticNew - INFO - train_file: /home/billyliu/eegcned/data_doc/train.txt
+2021-01-26 18:57:03,034 - statisticNew - INFO - dev_file: /home/billyliu/eegcned/data_doc/dev.txt
+2021-01-26 18:57:03,035 - statisticNew - INFO - test_file: /home/billyliu/eegcned/data_doc/test.txt
+2021-01-26 18:57:03,035 - statisticNew - INFO - log_name: model
+2021-01-26 18:57:03,035 - statisticNew - INFO - seed: 1023
+2021-01-26 18:57:03,035 - statisticNew - INFO - 
+
+2021-02-06 15:41:23,377 - statisticNew - INFO - 
+Args: 
+2021-02-06 15:41:23,674 - statisticNew - INFO - train: False
+2021-02-06 15:41:23,674 - statisticNew - INFO - tag_schema: iob
+2021-02-06 15:41:23,674 - statisticNew - INFO - batch_size: 30
+2021-02-06 15:41:23,674 - statisticNew - INFO - lr: 0.1
+2021-02-06 15:41:23,689 - statisticNew - INFO - lr_sharp_decay: 0
+2021-02-06 15:41:23,689 - statisticNew - INFO - lr_min: 1e-05
+2021-02-06 15:41:23,689 - statisticNew - INFO - label_weights: 5
+2021-02-06 15:41:23,689 - statisticNew - INFO - optimizer: SGD
+2021-02-06 15:41:23,689 - statisticNew - INFO - weight_decay: 1e-05
+2021-02-06 15:41:23,689 - statisticNew - INFO - epoch: 100
+2021-02-06 15:41:23,689 - statisticNew - INFO - cuda: 0
+2021-02-06 15:41:23,689 - statisticNew - INFO - num_steps: 50
+2021-02-06 15:41:23,689 - statisticNew - INFO - word_embed_dim: 100
+2021-02-06 15:41:23,689 - statisticNew - INFO - bio_embed_dim: 25
+2021-02-06 15:41:23,689 - statisticNew - INFO - pos_embed_dim: 0
+2021-02-06 15:41:23,689 - statisticNew - INFO - position_embed_dim: 0
+2021-02-06 15:41:23,689 - statisticNew - INFO - dep_embed_dim: 50
+2021-02-06 15:41:23,689 - statisticNew - INFO - rnn_hidden: 100
+2021-02-06 15:41:23,689 - statisticNew - INFO - rnn_layers: 1
+2021-02-06 15:41:23,689 - statisticNew - INFO - rnn_dropout: 0.6
+2021-02-06 15:41:23,689 - statisticNew - INFO - pooling: avg
+2021-02-06 15:41:23,689 - statisticNew - INFO - gcn_dim: 150
+2021-02-06 15:41:23,689 - statisticNew - INFO - num_layers: 2
+2021-02-06 15:41:23,689 - statisticNew - INFO - gcn_dropout: 0.6
+2021-02-06 15:41:23,689 - statisticNew - INFO - map_file: maps.pkl
+2021-02-06 15:41:23,689 - statisticNew - INFO - result_path: result
+2021-02-06 15:41:23,689 - statisticNew - INFO - emb_file: 100.utf8
+2021-02-06 15:41:23,689 - statisticNew - INFO - train_file: E:\Ubuntu project\eegcned\data_doc\train.txt
+2021-02-06 15:41:23,689 - statisticNew - INFO - dev_file: E:\Ubuntu project\eegcned\data_doc\dev.txt
+2021-02-06 15:41:23,689 - statisticNew - INFO - test_file: E:\Ubuntu project\eegcned\data_doc\test.txt
+2021-02-06 15:41:23,689 - statisticNew - INFO - log_name: model
+2021-02-06 15:41:23,689 - statisticNew - INFO - seed: 1023
+2021-02-06 15:41:23,689 - statisticNew - INFO - 
+
+2021-02-06 15:51:20,574 - statisticNew - INFO - 
+Args: 
+2021-02-06 15:51:20,574 - statisticNew - INFO - train: False
+2021-02-06 15:51:20,574 - statisticNew - INFO - tag_schema: iob
+2021-02-06 15:51:20,574 - statisticNew - INFO - batch_size: 30
+2021-02-06 15:51:20,574 - statisticNew - INFO - lr: 0.1
+2021-02-06 15:51:20,574 - statisticNew - INFO - lr_sharp_decay: 0
+2021-02-06 15:51:20,574 - statisticNew - INFO - lr_min: 1e-05
+2021-02-06 15:51:20,574 - statisticNew - INFO - label_weights: 5
+2021-02-06 15:51:20,574 - statisticNew - INFO - optimizer: SGD
+2021-02-06 15:51:20,574 - statisticNew - INFO - weight_decay: 1e-05
+2021-02-06 15:51:20,574 - statisticNew - INFO - epoch: 100
+2021-02-06 15:51:20,574 - statisticNew - INFO - cuda: 0
+2021-02-06 15:51:20,574 - statisticNew - INFO - num_steps: 50
+2021-02-06 15:51:20,574 - statisticNew - INFO - word_embed_dim: 100
+2021-02-06 15:51:20,574 - statisticNew - INFO - bio_embed_dim: 25
+2021-02-06 15:51:20,574 - statisticNew - INFO - pos_embed_dim: 0
+2021-02-06 15:51:20,574 - statisticNew - INFO - position_embed_dim: 0
+2021-02-06 15:51:20,574 - statisticNew - INFO - dep_embed_dim: 50
+2021-02-06 15:51:20,574 - statisticNew - INFO - rnn_hidden: 100
+2021-02-06 15:51:20,574 - statisticNew - INFO - rnn_layers: 1
+2021-02-06 15:51:20,605 - statisticNew - INFO - rnn_dropout: 0.6
+2021-02-06 15:51:20,605 - statisticNew - INFO - pooling: avg
+2021-02-06 15:51:20,605 - statisticNew - INFO - gcn_dim: 150
+2021-02-06 15:51:20,605 - statisticNew - INFO - num_layers: 2
+2021-02-06 15:51:20,605 - statisticNew - INFO - gcn_dropout: 0.6
+2021-02-06 15:51:20,605 - statisticNew - INFO - map_file: maps.pkl
+2021-02-06 15:51:20,605 - statisticNew - INFO - result_path: result
+2021-02-06 15:51:20,605 - statisticNew - INFO - emb_file: 100.utf8
+2021-02-06 15:51:20,620 - statisticNew - INFO - train_file: E:\Ubuntu project\eegcned\data_doc\train.txt
+2021-02-06 15:51:20,620 - statisticNew - INFO - dev_file: E:\Ubuntu project\eegcned\data_doc\dev.txt
+2021-02-06 15:51:20,620 - statisticNew - INFO - test_file: E:\Ubuntu project\eegcned\data_doc\test.txt
+2021-02-06 15:51:20,620 - statisticNew - INFO - log_name: model
+2021-02-06 15:51:20,620 - statisticNew - INFO - seed: 1023
+2021-02-06 15:51:20,620 - statisticNew - INFO - 
+
+2021-02-06 15:51:26,150 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
+2021-02-06 19:45:31,308 - statisticNew - INFO - 
+Args: 
+2021-02-06 19:45:31,324 - statisticNew - INFO - train: False
+2021-02-06 19:45:31,324 - statisticNew - INFO - tag_schema: iob
+2021-02-06 19:45:31,324 - statisticNew - INFO - batch_size: 16
+2021-02-06 19:45:31,324 - statisticNew - INFO - lr: 0.1
+2021-02-06 19:45:31,324 - statisticNew - INFO - lr_sharp_decay: 0
+2021-02-06 19:45:31,324 - statisticNew - INFO - lr_min: 1e-05
+2021-02-06 19:45:31,324 - statisticNew - INFO - label_weights: 5
+2021-02-06 19:45:31,340 - statisticNew - INFO - optimizer: SGD
+2021-02-06 19:45:31,340 - statisticNew - INFO - weight_decay: 1e-05
+2021-02-06 19:45:31,340 - statisticNew - INFO - epoch: 100
+2021-02-06 19:45:31,340 - statisticNew - INFO - cuda: 0
+2021-02-06 19:45:31,340 - statisticNew - INFO - num_steps: 50
+2021-02-06 19:45:31,340 - statisticNew - INFO - word_embed_dim: 100
+2021-02-06 19:45:31,340 - statisticNew - INFO - bio_embed_dim: 25
+2021-02-06 19:45:31,340 - statisticNew - INFO - pos_embed_dim: 0
+2021-02-06 19:45:31,340 - statisticNew - INFO - position_embed_dim: 0
+2021-02-06 19:45:31,340 - statisticNew - INFO - dep_embed_dim: 50
+2021-02-06 19:45:31,340 - statisticNew - INFO - rnn_hidden: 100
+2021-02-06 19:45:31,340 - statisticNew - INFO - rnn_layers: 1
+2021-02-06 19:45:31,340 - statisticNew - INFO - rnn_dropout: 0.6
+2021-02-06 19:45:31,340 - statisticNew - INFO - pooling: avg
+2021-02-06 19:45:31,340 - statisticNew - INFO - gcn_dim: 150
+2021-02-06 19:45:31,340 - statisticNew - INFO - num_layers: 2
+2021-02-06 19:45:31,340 - statisticNew - INFO - gcn_dropout: 0.6
+2021-02-06 19:45:31,340 - statisticNew - INFO - map_file: maps.pkl
+2021-02-06 19:45:31,340 - statisticNew - INFO - result_path: result
+2021-02-06 19:45:31,340 - statisticNew - INFO - emb_file: 100.utf8
+2021-02-06 19:45:31,340 - statisticNew - INFO - train_file: E:\Ubuntu project\eegcned\data_doc\train.txt
+2021-02-06 19:45:31,340 - statisticNew - INFO - dev_file: E:\Ubuntu project\eegcned\data_doc\dev.txt
+2021-02-06 19:45:31,340 - statisticNew - INFO - test_file: E:\Ubuntu project\eegcned\data_doc\test.txt
+2021-02-06 19:45:31,340 - statisticNew - INFO - log_name: model
+2021-02-06 19:45:31,340 - statisticNew - INFO - seed: 1023
+2021-02-06 19:45:31,340 - statisticNew - INFO - 
+
+2021-02-06 19:45:37,353 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
+2021-02-06 21:48:26,271 - statisticNew - INFO - 
+Args: 
+2021-02-06 21:48:26,271 - statisticNew - INFO - train: False
+2021-02-06 21:48:26,271 - statisticNew - INFO - tag_schema: iob
+2021-02-06 21:48:26,272 - statisticNew - INFO - batch_size: 16
+2021-02-06 21:48:26,272 - statisticNew - INFO - lr: 0.1
+2021-02-06 21:48:26,272 - statisticNew - INFO - lr_sharp_decay: 0
+2021-02-06 21:48:26,272 - statisticNew - INFO - lr_min: 1e-05
+2021-02-06 21:48:26,272 - statisticNew - INFO - label_weights: 5
+2021-02-06 21:48:26,273 - statisticNew - INFO - optimizer: SGD
+2021-02-06 21:48:26,273 - statisticNew - INFO - weight_decay: 1e-05
+2021-02-06 21:48:26,273 - statisticNew - INFO - epoch: 150
+2021-02-06 21:48:26,273 - statisticNew - INFO - cuda: 0
+2021-02-06 21:48:26,273 - statisticNew - INFO - num_steps: 50
+2021-02-06 21:48:26,274 - statisticNew - INFO - word_embed_dim: 100
+2021-02-06 21:48:26,274 - statisticNew - INFO - bio_embed_dim: 25
+2021-02-06 21:48:26,274 - statisticNew - INFO - pos_embed_dim: 0
+2021-02-06 21:48:26,275 - statisticNew - INFO - position_embed_dim: 0
+2021-02-06 21:48:26,275 - statisticNew - INFO - dep_embed_dim: 50
+2021-02-06 21:48:26,275 - statisticNew - INFO - rnn_hidden: 100
+2021-02-06 21:48:26,275 - statisticNew - INFO - rnn_layers: 1
+2021-02-06 21:48:26,275 - statisticNew - INFO - rnn_dropout: 0.6
+2021-02-06 21:48:26,275 - statisticNew - INFO - pooling: avg
+2021-02-06 21:48:26,275 - statisticNew - INFO - gcn_dim: 150
+2021-02-06 21:48:26,275 - statisticNew - INFO - num_layers: 2
+2021-02-06 21:48:26,275 - statisticNew - INFO - gcn_dropout: 0.6
+2021-02-06 21:48:26,275 - statisticNew - INFO - map_file: maps.pkl
+2021-02-06 21:48:26,276 - statisticNew - INFO - result_path: result
+2021-02-06 21:48:26,276 - statisticNew - INFO - emb_file: 100.utf8
+2021-02-06 21:48:26,276 - statisticNew - INFO - train_file: E:\eegcned\data_doc\train.txt
+2021-02-06 21:48:26,276 - statisticNew - INFO - dev_file: E:\eegcned\data_doc\dev.txt
+2021-02-06 21:48:26,276 - statisticNew - INFO - test_file: E:\eegcned\data_doc\test.txt
+2021-02-06 21:48:26,276 - statisticNew - INFO - log_name: model
+2021-02-06 21:48:26,276 - statisticNew - INFO - seed: 1023
+2021-02-06 21:48:26,276 - statisticNew - INFO - 
+
+2021-02-06 21:48:30,877 - statisticNew - INFO - 
+ resinfo accuracy:  96.79%; precision:  82.85%; recall:  67.46%; FB1:  74.37  F1: 74.37 
